@@ -1,9 +1,9 @@
-#include <stdio.h>
+    #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
-#include "Headers/sb.h"
+#include "../../include/utils.h"
 
-typedef struct arr_t {
+typedef struct arr_p {
     void** arr;
     size_t len;
 } arr_p;
@@ -68,6 +68,6 @@ void arr_print(char* format, ...) {
     free(str);
     str = nullptr;
     sb_destroy(sb);
-    sb->str = nullptr;
+    // sb->str = nullptr;
     sb = nullptr;
 }

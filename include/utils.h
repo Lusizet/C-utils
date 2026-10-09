@@ -7,16 +7,16 @@
 typedef struct Server Server;
 
 // Array print object
-typedef struct arr_t arr_p;
+typedef struct arr_p arr_p;
 
 // BigInteger object
 typedef struct big_integer BigInteger;
 
 // StringBuilder object
-typedef struct sb StringBuilder;
+typedef struct string_builder StringBuilder;
 
 // ArrayList object
-typedef struct ArrayList ArrayList;
+typedef struct array_list ArrayList;
 
 // ArrayList iterator object
 typedef struct it {
@@ -26,7 +26,7 @@ typedef struct it {
 } ali;
 
 // HashTable object
-typedef struct ht HashTable;
+typedef struct hash_table HashTable;
 
 // HastTable iterator object
 typedef struct {
