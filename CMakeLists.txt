@@ -3,4 +3,5 @@ project(C-utils C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(C-utils src/utils/utils.c)
+add_executable(C-utils src/utils/straddon.c
+        src/utils/server.c)
