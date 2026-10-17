@@ -97,6 +97,6 @@ void sb_substring(StringBuilder* sb, size_t start, size_t end);
 )
 
 // Server
-Server server_constructor(int port, int domain, int service, int protocol, int backlog, u_long e_interface, void (*launch) (Server*));
+Server* server_constructor(int port, int domain, int service, int protocol, int backlog, u_long e_interface, void (*launch) (Server*));
 
 #endif //UTILS_H
